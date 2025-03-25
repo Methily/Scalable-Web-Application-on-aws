@@ -12,6 +12,9 @@
  8) Amazon CloudWatch
  9) AWS Cloud9
 
-LEARN (OPTIONAL) -
+##LEARN (OPTIONAL) -
 * Architectural Design.
-* Estimating class- Pricing Calculator
+* Estimating class- Pricing Calculator.
+  - to estimate prices and learn how to manage the services based on your bugdet.
+
+  
