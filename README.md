@@ -92,22 +92,6 @@ aws cloudformation create-stack \
                    
   <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
 
-- 🔧 Configuration Files
-  -
-Auto Scaling Policies
-json{
-  "ScaleOutPolicy": {
-    "AdjustmentType": "ChangeInCapacity",
-    "ScalingAdjustment": 1,
-    "Cooldown": 300
-  },
-  "ScaleInPolicy": {
-    "AdjustmentType": "ChangeInCapacity",
-    "ScalingAdjustment": -1,
-    "Cooldown": 300
-  }
-}
-CloudWatch Alarms
 ----------------------------------------------------------------------------------
 CPU Utilization: Scale out when >70% for 2 consecutive periods
 Memory Utilization: Scale out when >80% for 2 consecutive periods
@@ -145,15 +129,6 @@ Implementation Features
 -Secret Management: Database credentials in AWS Secrets Manager
 -Security Groups: Restrictive inbound/outbound rules
 -SSL/TLS: End-to-end encryption via ACM certificates
-
-Auto Scaling HAS Best Practices
-RDS  FOR Multi-AZ Deployments
-
-Recommended Certifications Path
-
-AWS Certified Solutions Architect - Associate (3-4 months preparation)
-AWS Certified SysOps Administrator - Associate (2-3 months preparation)
-AWS Certified Solutions Architect - Professional (4-6 months preparation)
 
 # 🔍 Troubleshooting Guide
 Make sure to constantly check the Cloud Watch for cost.
