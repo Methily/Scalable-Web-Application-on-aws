@@ -1,7 +1,7 @@
 # Scalable-Web-Application-on-aws
  This repository is based on project for making building highly available, scalable web application in AMAZON WEB SERVICES.
 
- ##IN THIS PROJECT -
+ ## IN THIS PROJECT -
  The services we will use are - 
  
  1) Amazon  Route 53
@@ -15,7 +15,7 @@
  9) Amazon CloudWatch
  10) AWS Cloud9
 
-##LEARN (OPTIONAL) -
+## LEARN (OPTIONAL) -
 * Architectural Design.
 * Estimating class- Pricing Calculator.
   - to estimate prices and learn how to manage the services based on your bugdet.
@@ -28,8 +28,6 @@ Presentation Tier: Load-balanced web servers across multiple Availability Zones
 Application Tier: Auto-scaling EC2 instances running application logic
 Data Tier: Multi-AZ RDS database with read replicas for high availability
 
-#🛠️ AWS Services Utilized
-
 #📋 Prerequisites
 Technical Requirements
 
@@ -40,7 +38,7 @@ Knowledge of web application deployment
 
 Required Knowledge (Recommended)
 
-##Architectural Design Principles
+## Architectural Design Principles
 
 you should be able to - 
  -Understanding of 3-tier architecture
@@ -166,8 +164,11 @@ bash# Check RDS status
 aws rds describe-db-instances --db-instance-identifier webapp-db
 
 # Verify security group rules
+
 aws ec2 describe-security-groups --group-ids sg-xxxxx
-📁 Repository Structure
+
+#📁 Repository Structure should look like - 
+
 scalable-web-application-aws/
 ├── cloudformation/
 │   ├── network.yaml
