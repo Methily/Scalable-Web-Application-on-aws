@@ -53,8 +53,9 @@ Make sure  to have Cost estimation for production workloads.
 For Budget management and cost controls use Cloud watch and IAM for managment access.
 
 
-##🚀 Deployment Guide
-Phase 1: Infrastructure Setup (Week 1-2)
+##  Deployment Guide
+
+- Phase 1: Infrastructure Setup 
 Step 1: Network Foundation
 bash# Create VPC and networking components
 aws cloudformation create-stack \
@@ -73,7 +74,7 @@ aws cloudformation create-stack \
   --stack-name scalable-webapp-database \
   --template-body file://cloudformation/database.yaml \
   --parameters ParameterKey=DBInstanceClass,ParameterValue=db.t3.micro
-Phase 2: Application Deployment (Week 3-4)
+Phase 2: Application Deployment
 Step 4: Load Balancer and Auto Scaling
 bash# Deploy ALB and Auto Scaling Group
 aws cloudformation create-stack \
@@ -85,6 +86,7 @@ aws cloudformation create-stack \
   --stack-name scalable-webapp-monitoring \
   --template-body file://cloudformation/monitoring.yaml
 --------------------------------------------------------------------------------
+
 #📊 Architecture Diagram
                    
   <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
