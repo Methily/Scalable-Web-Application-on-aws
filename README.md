@@ -85,13 +85,15 @@ bash# Setup CloudWatch dashboards and alarms
 aws cloudformation create-stack \
   --stack-name scalable-webapp-monitoring \
   --template-body file://cloudformation/monitoring.yaml
+  
 --------------------------------------------------------------------------------
 
 #📊 Architecture Diagram
                    
   <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
 
-🔧 Configuration Files
+- 🔧 Configuration Files
+  -
 Auto Scaling Policies
 json{
   "ScaleOutPolicy": {
