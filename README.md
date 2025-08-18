@@ -88,7 +88,8 @@ aws cloudformation create-stack \
   --template-body file://cloudformation/monitoring.yaml
 --------------------------------------------------------------------------------
 #📊 Architecture Diagram
-                   <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
+                   
+  <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
 
 🔧 Configuration Files
 Auto Scaling Policies
@@ -117,14 +118,9 @@ bash# Apache Bench load testing
 ab -n 10000 -c 100 https://your-domain.com/
 
 # Expected Results:
-# - Zero failed requests
-# - Sub-second average response time
-# - Automatic scaling triggers activated
-High Availability Testing
-
-Instance Termination: Manually terminate EC2 instances
-AZ Failure Simulation: Disable entire availability zone
-Database Failover: Force RDS failover to standby
+ - Zero failed requests
+ - Sub-second average response time
+ - Automatic scaling triggers activated
 
 Application Response Time: < 500ms average
 Error Rate: < 0.1% of total requests
