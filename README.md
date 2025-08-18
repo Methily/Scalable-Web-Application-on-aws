@@ -101,7 +101,6 @@ Database Connections: Monitor RDS connection pool
 🎯 Testing and Validation
 Load Testing
 bash# Apache Bench load testing
-ab -n 10000 -c 100 https://your-domain.com/
 
 # Expected Results:
  - Zero failed requests
