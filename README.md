@@ -21,22 +21,28 @@
   - to estimate prices and learn how to manage the services based on your bugdet.
  
 This repository demonstrates the implementation of a highly available, fault-tolerant, and auto-scaling web application infrastructure on Amazon Web Services (AWS). The project showcases enterprise-grade cloud architecture patterns and best practices for modern web applications.
-🏗️ Architecture Overview
+Architecture Overview
 This project implements a 3-tier architecture with the following components:
 
 Presentation Tier: Load-balanced web servers across multiple Availability Zones
 Application Tier: Auto-scaling EC2 instances running application logic
 Data Tier: Multi-AZ RDS database with read replicas for high availability
 
-#📋 Prerequisites
+# Prerequisites
 Technical Requirements
+You use Terraform to connect your own laptop with AWS environment. This is done by setting up AWS CLI. 
+Terraform is like code that we usually do similar to python, you can say. It increases our workload efficiency by everything in one go rather then going to every single service and doing work manually.
 
 AWS Account with appropriate permissions
 Basic understanding of networking concepts (VPC, subnets, security groups)
 Familiarity with Linux command line
 Knowledge of web application deployment
 
-Required Knowledge (Recommended)
+#Required Knowledge (Recommended)
+-Terraform
+-AWS CLI
+-Basic knowledge of AWS Services.
+-Architectural designs
 
 ## Architectural Design Principles
 
@@ -88,7 +94,7 @@ aws cloudformation create-stack \
   
 --------------------------------------------------------------------------------
 
-#📊 Architecture Diagram
+#Architecture Diagram
                    
   <img width="683" height="755" alt="image" src="https://github.com/user-attachments/assets/41db76db-3b6c-4431-8bef-a17d7ad9c336" />
 
@@ -119,7 +125,7 @@ TO :-
  -Cost analysis and trending
  -Security event monitoring
 
-#🔐 Security Best Practices
+#Security Best Practices
 Implementation Features
 
 -Encryption: All data encrypted in transit and at rest
@@ -129,7 +135,7 @@ Implementation Features
 -Security Groups: Restrictive inbound/outbound rules
 -SSL/TLS: End-to-end encryption via ACM certificates
 
-# 🔍 Troubleshooting Guide
+# Troubleshooting Guide
 Make sure to constantly check the Cloud Watch for cost.
 
 You can bash# to Check CloudWatch alarms. it is a personal AWS tmerminal for your environment.
@@ -145,7 +151,7 @@ aws rds describe-db-instances --db-instance-identifier webapp-db
 
 aws ec2 describe-security-groups --group-ids sg-xxxxx
 
-#📁 Repository Structure should look like - 
+#Repository Structure should look like - 
 
 scalable-web-application-aws/
 ├── cloudformation/
