@@ -15,12 +15,12 @@
  9) Amazon CloudWatch
  10) AWS Cloud9
 
-## LEARN (OPTIONAL) -
-* Architectural Design.
+## LEARN -
+* Architectural Design.(it will be easier too understand)
 * Estimating class- Pricing Calculator.
   - to estimate prices and learn how to manage the services based on your bugdet.
  
-This repository demonstrates the implementation of a highly available, fault-tolerant, and auto-scaling web application infrastructure on Amazon Web Services (AWS). The project showcases enterprise-grade cloud architecture patterns and best practices for modern web applications.
+This repository shows the implementation of a highly available, fault-tolerant, and auto-scaling web application infrastructure on Amazon Web Services (AWS). The project showcases enterprise-grade cloud architecture patterns and best practices for modern web applications.
 Architecture Overview
 This project implements a 3-tier architecture with the following components:
 
@@ -29,7 +29,7 @@ Application Tier: Auto-scaling EC2 instances running application logic
 Data Tier: Multi-AZ RDS database with read replicas for high availability
 
 # Prerequisites
-Technical Requirements
+Technical Requirements-
 You use Terraform to connect your own laptop with AWS environment. This is done by setting up AWS CLI. 
 Terraform is like code that we usually do similar to python, you can say. It increases our workload efficiency by everything in one go rather then going to every single service and doing work manually.
 
@@ -53,7 +53,7 @@ you should be able to -
  -Caching strategies
 
 
-##AWS Pricing Calculator
+## AWS Pricing Calculator
 
 Make sure  to have Cost estimation for production workloads.
 For Budget management and cost controls use Cloud watch and IAM for managment access.
@@ -106,7 +106,7 @@ Database Connections: Monitor RDS connection pool
 
 🎯 Testing and Validation
 Load Testing
-bash# Apache Bench load testing
+bash Apache Bench load testing
 
 # Expected Results:
  - Zero failed requests
@@ -125,7 +125,7 @@ TO :-
  -Cost analysis and trending
  -Security event monitoring
 
-#Security Best Practices
+# Security Best Practices
 Implementation Features
 
 -Encryption: All data encrypted in transit and at rest
@@ -144,7 +144,7 @@ aws cloudwatch describe-alarms --alarm-names "High-CPU-Alarm"
 # Verify scaling policies
 aws autoscaling describe-policies --auto-scaling-group-name webapp-asg
 Database Connection Issues
-bash# Check RDS status
+Check RDS status
 aws rds describe-db-instances --db-instance-identifier webapp-db
 
 # Verify security group rules
