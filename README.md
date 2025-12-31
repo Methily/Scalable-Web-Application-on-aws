@@ -16,7 +16,7 @@
  10) AWS Cloud9
 
 ## LEARN -
-* Architectural Design.(it will be easier too understand)
+* Architectural Design.(it will be easier to understand the structure)
 * Estimating class- Pricing Calculator.
   - to estimate prices and learn how to manage the services based on your bugdet.
  
@@ -25,8 +25,10 @@ Architecture Overview
 This project implements a 3-tier architecture with the following components:
 
 Presentation Tier: Load-balanced web servers across multiple Availability Zones
+
 Application Tier: Auto-scaling EC2 instances running application logic
-Data Tier: Multi-AZ RDS database with read replicas for high availability
+
+Data Tier: RDS database with read replicas for high availability
 
 # Prerequisites
 Technical Requirements-
