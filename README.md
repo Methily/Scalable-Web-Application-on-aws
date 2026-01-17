@@ -65,6 +65,11 @@ For Budget management and cost controls use Cloud watch and IAM for managment ac
 Step 1: Network Foundation
 bash#
 - Create VPC and networking components
+  (once you do make the VPC it should look something like this -)
+  
+  <img width="581" height="797" alt="Screenshot 2025-03-24 090803" src="https://github.com/user-attachments/assets/1f2c3a07-ddd2-4592-8b9e-fb801af94c7c" />
+
+and when you created the 
 - aws cloudformation create-stack \
   --stack-name scalable-webapp-network \
   --template-body file://cloudformation/network.yaml \
