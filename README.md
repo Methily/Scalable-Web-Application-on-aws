@@ -41,7 +41,7 @@ Familiarity with Linux command line
 Knowledge of web application deployment
 
 #Required Knowledge (Recommended)
-* Terraform
+- Terraform
 -AWS CLI
 -Basic knowledge of AWS Services.
 -Architectural designs
