@@ -41,7 +41,7 @@ Familiarity with Linux command line
 Knowledge of web application deployment
 
 #Required Knowledge (Recommended)
--Terraform
+* Terraform
 -AWS CLI
 -Basic knowledge of AWS Services.
 -Architectural designs
@@ -52,7 +52,7 @@ you should be able to -
  -Understanding of 3-tier architecture
  -Load balancing concepts
  -Database replication and failover
- -Caching strategies
+ -
 
 
 ## AWS Pricing Calculator
