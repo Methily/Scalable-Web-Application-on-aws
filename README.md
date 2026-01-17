@@ -11,9 +11,8 @@
  5) EC2 Instances
  6) Amazon RDS (MySQL/PostgreSQL)
  7) Amazon S3
- 8) AWS Secrets Manager
- 9) Amazon CloudWatch
- 10) AWS Cloud9
+ 8) Amazon CloudWatch
+ 9) AWS Cloud9
 
 ## LEARN -
 * Architectural Design.(it will be easier to understand the structure)
