@@ -47,12 +47,10 @@ Knowledge of web application deployment
 -Architectural designs
 
 ## Architectural Design Principles
-
-you should be able to - 
- -Understanding of 3-tier architecture
+ -you should be able to Understanding of 3-tier architecture
  -Load balancing concepts
  -Database replication and failover
- -
+ 
 
 
 ## AWS Pricing Calculator
