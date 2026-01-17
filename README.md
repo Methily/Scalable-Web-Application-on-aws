@@ -65,8 +65,9 @@ For Budget management and cost controls use Cloud watch and IAM for managment ac
 
 - Phase 1: Infrastructure Setup 
 Step 1: Network Foundation
-bash# Create VPC and networking components
-aws cloudformation create-stack \
+bash#
+- Create VPC and networking components
+- aws cloudformation create-stack \
   --stack-name scalable-webapp-network \
   --template-body file://cloudformation/network.yaml \
   --parameters ParameterKey=Environment,ParameterValue=production
